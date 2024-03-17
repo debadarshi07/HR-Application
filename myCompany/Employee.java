@@ -109,7 +109,7 @@ public class Employee {
     // Printing all employee details
 
     public static void showAllEmployees(){
-    	int count=0;
+    	int count=1;
     	if(employees.isEmpty()) {
     		System.out.println("\nDatabase is empty.");
     	}else {
